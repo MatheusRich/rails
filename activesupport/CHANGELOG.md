@@ -4,7 +4,7 @@
     query time instances against the current period.
 
     ```ruby
-    unless date.this_week?
+    unless post.created_at.this_week?
       link_to "See week recap", week_recap_path(date)
     end
     ```
